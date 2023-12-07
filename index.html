@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+
+<link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+   <!-- main starts here -->
+   <main>
+    <!-- banner starts here -->
+    <section id="banner">
+        <div class="banner col-lg" style="background-image: url(./img/mycart-banner-img.png);">
+          <div class="container">
+          <div class="row">
+            <div class="banner-cnt d-flex align-items-center justify-content-center">
+                <h1>My Cart</h1>
+            </div>
+          </div>
+          </div>
+        </div>
+
+    </section>
+    <!-- banner ends here -->
+    <!-- mycart-table starts here -->
+    <section id="cart_table">
+         <div class="cart_table col-lg">
+           <div class="container">
+
+
+           
+            <table class="table">
+            
+                <tr>
+                  <th scope="col">Product</th>
+                  <th scope="col">Product Name</th>
+                  <th scope="col">Unit Price</th>
+                  <th scope="col">Quantity</th>
+                  <th scope="col">Total</th>
+                  <th scope="col">Action</th>
+                </tr>
+              
+              <tbody>
+
+                <!-- Product 1 -->
+                <tr>
+
+                  <td >
+                    <div class="cart-img">
+                      <img src="./img/cart-img-1.png" alt="">
+                    </div>
+                  </td>
+
+                  <td class="c-text">Belgium waffles with strawberries</td>
+
+                  <td><p>$150</p></td>
+
+
+
+                  <td>
+
+                    <div class="quantity">
+                      <button class="plus-btn" type="button" name="button">
+                        <span class="span"><i class="fa-solid fa-plus"></i></span>
+                      </button>
+                      <input type="text" class="num" name="name" value="0">
+                      <button class="minus-btn" type="button" name="button">
+                        <span class="span"><i class="fa-solid fa-minus"></i></span>
+                      </button>
+                    </div>
+
+                  </td>
+
+
+                  <td><p>$150</p></td>
+
+
+                  <td>
+                    <span class="action"><i class="fa-solid fa-xmark"></i></span>
+                  </td>
+                </tr>
+                
+
+
+                <!-- PRoduct 2 -->
+                <tr>
+
+                  <td >
+                    <div class="cart-img">
+                      <img src="./img/cart-img-2.png" alt="">
+                    </div>
+                  </td>
+
+                  <td class="c-text">Chicken skewers</td>
+
+                  <td><p>$150</p></td>
+
+
+
+                  <td>
+                    <div class="quantity">
+                      <button class="plus-btn2" type="button" name="button">
+                        <span class="span"><i class="fa-solid fa-plus"></i></span>
+                      </button>
+                      <input type="text" class="num2" name="name" value="0">
+                      <button class="minus-btn2" type="button" name="button">
+                        <span class="span"><i class="fa-solid fa-minus"></i></span>
+                      </button>
+                    </div>
+                
+                  </td>
+
+
+                  <td><p>$150</p></td>
+
+
+                  <td>
+                    <span class="action"><i class="fa-solid fa-xmark"></i></span>
+                  </td>
+                </tr>
+
+                <!-- product 2 end -->
+              </tbody>
+            </table>
+       
+           </div>
+         </div>
+    </section>
+  
+    <!-- cart table ends here -->
+
+
+    <!-- subtotal and shipping starts here -->
+
+<section id="total_cart">
+
+<div class="container">
+  <div class="row">
+ 
+     <div class="col-lg-6 col-md-6">
+      <div class="cart_shipping">
+        <div class="card-header">
+          <h2>CALCULATE SHIPPING</h2>
+        </div>
+      <div class="card-body">
+        <form action="">
+          <select name="" >
+            <option class="option my-4" value="">Select Your payment gateway</option>
+            <input type="text" class="input my-4" placeholder="Card Number CVC/Date">
+            <input type="text" class="input"  placeholder="Coupon Code(if you have)">
+         <a href="#" class="button">Apply Coupon</a> 
+          </select>
+        </form>
+   
+      </div>
+      </div>
+
+
+   </div>
+
+
+     <div class="col-lg-6 col-md-6">
+   <div class="cart-total">
+    <div class="card-header">
+      <h2>CART SUBTOTAL</h2>
+    </div>
+
+
+      <div class="cart-body">
+
+        <form action=""></form>
+        <div class="order">
+          <p>Order Subtotal</p>
+          <label for="">$125.96<input type="hidden" value=""></label>
+        
+        </div>
+        <div class="order">
+          <p>Shipping</p>
+          <label for="">Free Shipping<input type="hidden" value=""></label>
+        
+        </div>
+        <div class="order">
+          <p>Coupun</p>
+          <label for="">$28.00<input type="hidden" value=""></label>
+        
+        </div>
+        <div class="order">
+          <p>Total</p>
+          <label for="">$506.00<input type="hidden" value=""></label>
+        
+        </div>
+        <a href="#" class="button">Proceed To Checkout</a> 
+      </form>
+      </div>
+   </div>
+
+
+        
+
+
+     </div>
+    
+
+
+  </div>
+  </div>
+
+
+</section>
+
+
+
+ <!-- subtotal and shipping endshere -->
+   <section id"></section>
+
+
+   </main>
+   <!-- main ends here -->
+
+
+ 
+    
+   <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
